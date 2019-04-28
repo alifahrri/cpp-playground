@@ -14,6 +14,7 @@ int main(int argc, char** argv)
 
 	auto nop = [](){};
 	auto functor = helper::Functor00();
+	// needs c++14
 	auto functor_ptr = std::make_unique<helper::Functor00>();
 
 	executor[0](f, nop);
