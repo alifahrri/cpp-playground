@@ -17,3 +17,6 @@ target_link_libraries(${PROJECT_NAME}-demo-03 pthread)
 
 add_executable(${PROJECT_NAME}-demo-04 src/demo-04.cpp)
 target_link_libraries(${PROJECT_NAME}-demo-04 pthread)
+
+add_executable(${PROJECT_NAME}-demo-05 src/demo-05.cpp)
+target_link_libraries(${PROJECT_NAME}-demo-05 pthread)
