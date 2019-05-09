@@ -59,6 +59,13 @@ task_bind:	2048
 f : 139735509063424
 task_thread:	1024
 ```
+```
+./cpp-exercise-04-demo-04
+```
+```
+Thread 1 received the signal 0.048386 ms after start
+Thread 2 received the signal 0.048393 ms after start
+```
 ### References
 [1] https://en.cppreference.com/w/cpp/thread/async   
 [2] https://en.cppreference.com/w/cpp/thread/packaged_task   
