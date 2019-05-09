@@ -17,6 +17,7 @@ struct F
 
 int main(int argc, char**argv)
 {
+    std::cout << "main thread id : " << std::this_thread::get_id() << std::endl;
     F<int> f0;
     F<double> f1;
     std::vector<std::future<int>> f0_handles;
