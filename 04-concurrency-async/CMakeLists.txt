@@ -19,3 +19,11 @@ target_compile_options(${PROJECT_NAME}-demo-02
 target_link_libraries(${PROJECT_NAME}-demo-02
     pthread
 )
+
+add_executable(${PROJECT_NAME}-demo-03 src/demo-03.cpp)
+target_compile_options(${PROJECT_NAME}-demo-03
+    PUBLIC -std=c++11
+)
+target_link_libraries(${PROJECT_NAME}-demo-03
+    pthread
+)
