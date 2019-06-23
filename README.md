@@ -1,15 +1,5 @@
-# CPP-Playgound   
+# CPP-Playgound [![Build Status](https://travis-ci.org/alifahrri/cpp-playground.svg?branch=master)](https://travis-ci.org/alifahrri/cpp-playground)   
 A c++ exercise on generic codes, concurrency, patterns, and idioms.   
-### Tag Dispatch
-### Copy Elision
-### Move Semantics
-### Concurency (Thread)
-### Concurency (Async)
-### Type Erasure
-### Non-Virtual Interfaces
-### Return Type Resolver
-### Thread Pool
-### Metafunctions   
 
 ## Quick Start  
 ### build docker image
@@ -37,6 +27,18 @@ and from the container
 ```
 # bash scripts/run_all.sh
 ```   
+## Topics 
+#### Tag Dispatch
+#### Copy Elision
+#### Move Semantics
+#### Concurency (Thread)
+#### Concurency (Async)
+#### Type Erasure
+#### Non-Virtual Interfaces
+#### Return Type Resolver
+#### Thread Pool
+#### Metafunctions   
+
 ## TODO  
 - update regularly
 - add snippet
